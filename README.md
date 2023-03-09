@@ -1,108 +1,239 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Breathe and Heal Club Website #
 
-Welcome USER_NAME,
+The Breathe and Heal club website is a site that hopes to help keep people motivated to meet up for breathing exercise sessions on a regular basis in Dublin, Ireland. The site is targeted toward people with anxiety and stress-related issues who are looking for a way to lower their stress and anxiety. The Breathe and Heal website will be useful for users to see exactly when and where to join the meet ups.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Project image (amiresponsive here)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Link to deployed site here.
 
-## Gitpod Reminders
+Optional - shields.io badges here.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## FEATURES ##
+- - - -
+* User Experience
+    * User Stories    
+* Design
+    * Color Scheme
+    * Typography
+    * Imagery
+    * Wireframes    
+* Features
+    * General Features on Each Page
+    * Future Implementations
+    * Accessibility    
+* Technologies Used
+    * Languages Used
+    * Frameworks, Libraries & Programs Used    
+* Deployment & Local Development
+    * Deployment
+    * Local Deployment
+    * How to Fork
+    * How to Clone    
+* Testing    
+* Credits
+    * Code Used
+    * Content
+    * Media
+    * Acknowledgements
 
-`python3 -m http.server`
+## User Experience (UX) ##
+- - - -
 
-A blue button should appear to click: _Make Public_,
+### Initial Discussion ###
 
-Another blue button should appear to click: _Open Browser_.
+The Breathe and Heal club is a club for people who want to achieve reduced anxiety and reduced stress through breathing exercises in a group setting with other club members.  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Club members meet regularly in a group setting in Dublin, Ireland and help each other perform different breathing exercises called Breathe and Heal exercises.
 
-A blue button should appear to click: _Make Public_,
+### Key Information For the Website ###  
+  
 
-Another blue button should appear to click: _Open Browser_.
+* How to become a member.
+* When meetups happen and where.
+* A way for people to contact the club and ask questions.
+* Updates on what is coming to the club.  
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## User Stories ##  
 
-To log into the Heroku toolbelt CLI:
+### Client Goals ###
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* To be able to view the website on different screen sizes.
+* To make it easy for website visitors to find out what the club is about and how to become a member.
+* To make it easy for members to see the current activities and what´s coming up next.
+* To make it easy for people to contact the club and ask questions.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### First Time Visitor Goals ###
 
-------
+* I want to find out what the Breathe and Heal club is and how I can become a member.
+* I want to be able to navigate the site easily when searching for information.
+* I want to be able to find their social links.
 
-## Release History
+### Returning Visitor Goals ###
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* I want to find up to date information on what activities the club is planning.
+* I want to be able to easily contact the club if I have any questions.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Frequent Visitor Goals ###
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* I want to be able to suggest activities that might be interesting for the club and its members.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Design ##
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- - - -
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Color Scheme ###
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+We wanted to choose colors that reflected the environment so we chose a variety of green, blues and browns.  
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Image of colors here.  
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Typography ###
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The chosen fonts were imported from Google Fonts for use in the website.  
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+We have chosen to use the oxygen-font which is a sans serif-font which is great for accessibility and dyslexic users.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Imagery ###
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Images here.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Wireframes ###
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Wireframes here.
 
-------
+## Features ##
 
-## FAQ about the uptime script
+The website consists of a home page, a gallery page and a contact page as well as a 404 error page and a 500 error page.  
 
-**Why have you added this script?**
+All pages on the website are responsive and have:  
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* A favicon in the browser tab.  
 
-**How will this affect me?**
+Screenshot here of your favicon.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* The title of the website at the top of every page. This title is also a link back to the homepage.  
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+A screenshot of the title here (may be inside a header).  
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* Every page will display a custom cursor when on a button. This feature is not available on mobile touch devices.  
 
-**So….?**
+## Technologies Used ##
+- - - -
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Languages Used ###
 
-**Can I opt out?**
+This website was created with HTML and CSS.  
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Frameworks, Libraries and Programs Used ###
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Balsamiq - Used to create wireframes.  
 
-**Anything more?**
+Git - For version control.  
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+GitHub - To save and store the files for the website.  
 
----
+Bootstrap Version 4.6 - The framework for the website. Code for the navigation bar, carousel, cards and form were used and modified. Additional CSS styling was also implemented in style.css.  
 
-Happy coding!
+Google Fonts - To import the fonts used on the website.  
+
+Font Awesome - For the iconography on the website.  
+
+Google Dev Tools - To troubleshoot and test features - solve issues with responsiveness and styling.  
+
+Tiny PNG - To compress images.  
+
+Birme - To resize images and change to webp format.  
+
+Favicon.io - To create favicon.  
+
+Am I Responsive? - To show the website image on a range of screens.  
+
+Shields.io - To add badges to the README.  
+
+## Deployment & Local Development ##
+- - - -
+
+## Deployment ##
+
+The site is deployed using GitHub Pages - The Quiz Arms.  
+
+To Deploy the website using GitHub Pages:  
+
+1. Login (or signup) to GitHub.
+2. Go to the repository for this projecT.
+3. Click the Settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main bransch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+## Local Development ##
+
+### How to Fork ##
+
+To fork the repository:  
+
+1. Login (or sign up) to GitHub.
+2. Go to the repository for this project.
+3. Click the Fork button in the top right corner.
+
+## How to Clone ##
+
+To clone the repository:  
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CU and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link copied in Step 3. Press Enter.
+
+## Breathe and Heal Website - Testing Documentation ##
+- - - -
+
+Image here.  
+
+Visit the deployed site: Found in Translation (Make this a link)
+- - - -
+
+## CONTENTS ##
+- - - -
+
+* AUTOMATED TESTING
+    * W3C Validator
+    * JavaScript Validator
+    * Python Validator
+    * Lighthouse
+* MANUAL TESTING
+    * Testing User Stories
+    * Full Testing
+
+    Testing was ongoing throughout the entire building of the website. We utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as we went along.  
+
+    Each page has been inspected using Google Chrome Developer Tools & Firefox inspector tool to ensure that each page is fully responsive on a variety of different screen sizes and devices. We have also physically tested the responsiveness of the website on a number of different devices.
+
+    ## Credits ##
+    - - - -
+
+    ### Code Used ###
+
+    * Star Rating Code. The following code was used and adapted for the star rating system in the book reviews.
+
+    * glassmorphism-generator. Used to create the colored card panels.
+
+    * Error Handling. I used the following code mentioned in this article as a basis for creating my custom error handling.
+
+### Content ###
+
+Content for this project was written by Kristian Mikkonen.  
+
+### Media ###
+
+* Favicon image - Hand drawn illustration of open book
+* Background image used for the site header - Describe image
+* Index page image - Describe image
+* Error page image - Insert image
+
+### Acknowledgements ###
+
+I would like to acknowledge the following people who helped me along the way in completing this project:  
+
+* Kera Cudmore for endless support and detailed answers to my questions.
