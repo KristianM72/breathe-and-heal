@@ -64,7 +64,7 @@ h1, h2 {
 }
 
 #cover-text, #cover-text h2 {
-	color: red;
+	color: rgb(255,255,255);
 }
 
 #hero-image {
@@ -76,19 +76,22 @@ h1, h2 {
 #cover-text {
 	font-size: 130%;
 	font-family: Nunito, sans-serif;
-	text-transform: uppercase;
+	text-transform: none;
 	letter-spacing: 4px;
 
-	width: 200px;
-	height: 130px;
+	width: 300px;
+	height: 180px;
 
-	padding-top: 40px;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 10px;
 
-	background-color: rgba(241, 109, 107, .7);
+	background-color: rgba(110, 150, 215, 0.7);
 
-	bottom: 140px;
-	right: 40px;
+	bottom: 300px;
+	left: 50px;
 
 	position: absolute;
+    
 }
