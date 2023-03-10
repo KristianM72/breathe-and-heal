@@ -54,3 +54,41 @@ h1, h2 {
 .active {
 	border-bottom: 1px solid rgb(69, 69, 69);
 }
+
+/* hero image and cover text */
+
+#hero-outer {
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#cover-text, #cover-text h2 {
+	color: red;
+}
+
+#hero-image {
+	height: 600px;
+	width: 100%;
+	background: url('../images/hero-image.jpg');
+}
+
+#cover-text {
+	font-size: 130%;
+	font-family: Nunito, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+
+	width: 200px;
+	height: 130px;
+
+	padding-top: 40px;
+	padding-left: 10px;
+
+	background-color: rgba(241, 109, 107, .7);
+
+	bottom: 140px;
+	right: 40px;
+
+	position: absolute;
+}
