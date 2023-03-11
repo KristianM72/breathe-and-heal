@@ -113,7 +113,7 @@ hr {
 }
 
 #left-about {
-	height: 530px;
+	height: 570px;
 	padding-top: 30px;
 	padding-left: 50px;
 	padding-right: 40px;
@@ -124,12 +124,13 @@ hr {
 
 /* wim hof info */
 
-div {
-	float: right;
-  }
-
-#right-about {
+#wim {
 text-align: right;
 margin: 50px 0;
 float: right;
 }
+
+div {
+	float: right;
+	clear: both;
+  }
