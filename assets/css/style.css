@@ -83,7 +83,6 @@ h1, h2 {
 	width: 300px;
 	height: 180px;
 
-	
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
@@ -98,19 +97,39 @@ h1, h2 {
 
 /* club info */
 
+#breathe {
+	text-align: left;
+	margin: 30px;
+	}
+
 #club-info {
 	height: 600px;
 }
 
+hr {
+	border-top: 1px solid black;
+	width: 100%;
+	margin: 5px 0;
+}
+
 #left-about {
-	height: 200px;
+	height: 530px;
 	padding-top: 30px;
-	width: 33%;
+	padding-left: 50px;
+	padding-right: 40px;
+	width: 30%;
 	float: left;
 	background-color: rgb(200, 206, 194);
 }
 
-#center-about {
-	width: 33%;
-	margin: 0 auto;
+/* wim hof info */
+
+div {
+	float: right;
+  }
+
+#right-about {
+text-align: right;
+margin: 50px 0;
+float: right;
 }
