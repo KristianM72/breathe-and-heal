@@ -168,7 +168,7 @@ hr {
 }
 
 #locations div {
-	color: #fafafa;
+	color: rgb(255, 255, 255);
 	background-color: rgba(0, 0, 0, .6);
 	width: 25%;
 	height: 300px;
@@ -181,4 +181,25 @@ hr {
 
 #locations h2 {
 	color: rgb(255, 255, 255);
+}
+
+/* footer */
+
+footer {
+	height: 150px;
+}
+
+.social-websites {
+	text-align: center;
+}
+
+.social-websites > li {
+	display: inline;
+}
+
+.social-websites > li {
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: rgb(69, 69, 69);
 }
