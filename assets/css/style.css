@@ -254,4 +254,31 @@ hr {
 		margin-bottom: 20px;
 		line-height: 25px;
 }
+
+#cover-text {
+	left: 0;
 }
+
+#club-info {
+	width: 90%;
+	height: 1200px;
+	margin: 0 auto;
+}
+
+
+
+/* For videos on mobile screen sizes */
+
+.iframe-container{
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%; 
+	height: 0;
+  }
+  .iframe-container iframe{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
