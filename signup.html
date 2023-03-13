@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Breathe and Heal - a club for breathing and ice bath enthusiasts in Dublin, Ireland">
+    <meta name="keywords" content="breathe and heal, breathe, heal, ireland, dublin">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Breathe and Heal</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Breathe and Heal</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a class="active" href="signup.html">Sign Up</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="form-section">
+
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Let's get you signed up!</h2>
+
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" type="text" name="first_name" required>
+
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" type="text" name="last_name" required>
+
+            <label for="email">Email Address</label>
+            <input class="text-input" id="email" type="email" name="email_address" required>
+
+            <label for="indoors">Indoors</label>
+            <input type="radio" name="running_preference" id="indoors" value="indoors" required>
+
+            <label for="trail">Outdoors</label>
+            <input type="radio" name="running_preference" id="outdoors" value="outdoors" required>
+
+            <label for="both">Both</label>
+            <input type="radio" name="running_preference" id="both" value="both" required>
+
+        <input class="join-button" type="submit" value="Let's Breathe!">
+
+        </form>
+
+    </section>
+    </footer>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/f3cadaee97.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
